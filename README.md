@@ -1,5 +1,21 @@
 # 코로나 이후 이동량, 정말  줄었을까?
 ## sub Title - seoultraffic EDA projrct
+------
+Useing library
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+from matplotlib import pyplot
+import seaborn as sns
+import matplotlib.font_manager as fm
+import missingno as msno #결측데이터 검색
+import warnings
+import time
+%matplotlib inline
+%config InlineBackend.figure_formats = {'png', 'retina'}
+-----------
 
 ![initial](https://user-images.githubusercontent.com/80030759/120570772-cfa5a080-c453-11eb-89a7-02f9095e9ba6.jpg)
 ![initial](https://user-images.githubusercontent.com/80030759/120570989-35922800-c454-11eb-82e5-67268a336598.jpg)
